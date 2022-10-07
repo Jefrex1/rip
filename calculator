@@ -1,0 +1,22 @@
+cont = 'yes'
+while cont == 'yes':
+    a = int(input("first number "))
+    oper = input("operation ")
+    b = int(input("second number "))
+    if oper == "/" and str(b) == "0":
+       print("pomilka")
+    elif oper == "+":
+        c = a + b
+        print(c)
+    elif oper == "-":
+        c = a - b
+        print(c)
+    elif oper == "/":
+        c = a / b
+        print(c)
+    elif oper == "*":
+        c = a * b
+        print(c)
+    else:
+        print("wrong sintax")
+    cont = input('cont? \nyes or no ')
